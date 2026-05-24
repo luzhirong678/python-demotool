@@ -51,7 +51,10 @@ class MathProblemGenerator(QMainWindow):
         layout.addWidget(self.problemsText)
         
         central_widget.setLayout(layout)
-    
+
+    def greet(self):
+        print("Hi Python~")
+
     def generate_problems(self):
         try:
             max_number = int(self.rangeInput.text())
