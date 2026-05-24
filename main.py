@@ -54,7 +54,6 @@ class MathProblemGenerator(QMainWindow):
 
     def greet(self):
         print('Hello Python')
-        print("Hi Python~")
 
     def generate_problems(self):
         try:
