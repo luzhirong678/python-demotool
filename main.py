@@ -53,6 +53,7 @@ class MathProblemGenerator(QMainWindow):
 
     def greet(self):
         print('Hello Python')
+        print("123")
 
     def generate_problems(self):
         try:
