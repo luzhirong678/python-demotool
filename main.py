@@ -49,8 +49,7 @@ class MathProblemGenerator(QMainWindow):
         self.problemsText.setReadOnly(True)
         self.problemsText.setPlaceholderText('生成的题目将显示在这里...')
         layout.addWidget(self.problemsText)
-        
-        central_widget.setLayout(layout)
+
 
     def greet(self):
         print('Hello Python')
